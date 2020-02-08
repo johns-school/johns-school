@@ -383,11 +383,10 @@ hr {
         padding: 2% 0 2% 0;
     }
     .faq-item details summary {
-        font-size: 30px;
+        font-size: 32px;
     }
     .faq-item details p {
-        font-size: 22px;
-        text-align: justify;
+        font-size: 24px;
     }
     .slider {
         width: 98%;
