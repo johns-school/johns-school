@@ -279,10 +279,6 @@ hr {
 details[open] span {
     animation: spoiler 1s;
 }
-@keyframes spoiler {
-    0%   {opacity: 0;}
-    100% {opacity: 1;}
-}
 .contacts {
     background-image: url(../img/bg2.png);
     background-size: cover;
@@ -438,6 +434,5 @@ details[open] span {
     }
     #map {
         width: 90%;
-        height: 250px;
     }
 }
