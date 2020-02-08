@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Nunito&display=swap");
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: auto;
     font-family: "Montserrat", sans-serif;
@@ -275,9 +278,6 @@ hr {
 }
 .faq-item details summary::-webkit-details-marker {
     display: none;
-}
-details[open] span {
-    animation: spoiler 1s;
 }
 .contacts {
     background-image: url(../img/bg2.png);
