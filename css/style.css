@@ -392,14 +392,14 @@ hr {
         width: 98%;
     }
     .slider-item {
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 50%;
+        max-width: 50%;
     }
     .slider-item hr {
         width: 50%;
     }
     #slide-head, #slide-head-1, #slide-head-2 {
-        font-size: 18px;
+        font-size: 20px;
         width: 100%;
         line-height: 2;
     }
@@ -409,7 +409,7 @@ hr {
     #slide-text {
         width: 100%;
         margin: auto;
-        font-size: 20px;
+        font-size: 22px;
     }
     .faq-1, .faq-2 {
         display: flex;
