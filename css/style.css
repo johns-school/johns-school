@@ -345,6 +345,9 @@ hr {
         flex-direction: column;
         position: fixed;
     }
+    .navigation a {
+        font-size: 18px;
+    }
     .navigation.responsive a.icon {
         position: absolute;
         right: 0;
