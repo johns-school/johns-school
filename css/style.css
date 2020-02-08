@@ -331,7 +331,7 @@ hr {
     padding: 0.1% 0 0.1% 0;
     text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .navigation a:not(:first-child) {
         display: none;
     }
@@ -389,7 +389,7 @@ hr {
         width: 50%;
     }
     #slide-head, #slide-head-1, #slide-head-2 {
-        font-size: 16px;
+        font-size: 18px;
         width: 100%;
         line-height: 2;
     }
