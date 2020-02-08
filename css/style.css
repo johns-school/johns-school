@@ -331,7 +331,7 @@ hr {
     padding: 0.1% 0 0.1% 0;
     text-align: center;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .navigation a:not(:first-child) {
         display: none;
     }
@@ -362,12 +362,13 @@ hr {
     }
     .about-list a {
         flex-basis: 40%;
+        font-size: 20px;
     }
     #about-text {
-        font-size: 16px;
+        font-size: 14px;
     }
     #about-icon {
-        font-size: 90px;
+        font-size: 100px;
     }
     .faq {
         display: flex;
@@ -385,7 +386,7 @@ hr {
         max-width: 50%;
     }
     .slider-item hr {
-        width: 75%;
+        width: 50%;
     }
     #slide-head, #slide-head-1, #slide-head-2 {
         font-size: 16px;
@@ -393,7 +394,7 @@ hr {
         line-height: 2;
     }
     #slide-head-1 {
-        margin: 40% 0 8% 0;
+        margin: 20% 0 5% 0;
     }
     #slide-text {
         width: 100%;
@@ -411,6 +412,7 @@ hr {
     }
     .faq-item p {
         text-align: center;
+        font-size: 14px;
     }
     .contacts-det {
         display: flex;
