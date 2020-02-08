@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+    <title>John's School — курсы иностранных языков</title>
+    
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+    <div class="navigation" id="nav">
+        <a href="#home">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#groups">Группы и направления</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contacts">Контакты</a>
+        <a href="javascript:void(0);" class="icon" onclick="adaptiveNav()"><i class="fa fa-bars"></i></a>
+    </div>
+    <div id="home" class="home">
+        <div class="home-tag">
+            <h2>John's School</h2>
+            <h4>Курсы иностранных языков</h4>
+            <a href="#about" id="btn-down">Подробнее</a>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <p id="about-tag">Почему мы?</p>
+        <div id="about-text">
+            Научим общаться на английском, понимать живую 
+            иностранную речь, использовать английский для отдыха, развлечений, 
+            получения информации, карьерного и профессионального роста.
+            Научим не бояться ошибок, работать с удовольствием, наслаждаться 
+            процессом познания нового. Научим любить английский! 
+        </div><hr>
+        <div class="about-list">
+            <a><i id="about-icon" class="fa fa-handshake"></i><br>Индивидуальный подход</a>
+            <a><i id="about-icon" class="fa fa-clipboard-list"></i><br>Гибкое расписание</a>
+            <a><i id="about-icon" class="fa fa-chalkboard-teacher"></i><br>Квалифицированные преподаватели</a>
+            <a><i id="about-icon" class="fa fa-book-open"></i><br>Авторские учебные материалы</a>
+            <a><i id="about-icon" class="fa fa-door-open"></i><br>Удобное расположение</a>
+            <a><i id="about-icon" class="fa fa-hand-holding-usd"></i><br>Взвешенные цены</a>
+        </div>
+        <hr>
+    </div>
+    <div id="groups" class="groups">
+        <p id="groups-tag">Группы и направления</p>
+        <div class="slider">
+            <div class="slider-wrapper">
+                <div class="slider-item">
+                    <div><a id="slide-head">Интересный английский для детей дошкольного возраста</a><hr>
+                    <a id="slide-text">Дошкольный курс, 1 год. Лексика, базовые фразы, мультфильмы, видео- и аудиоматериалы</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div><a id="slide-head">Интенсивный английский для школьников</a><hr>
+                    <a id="slide-text">Младшая и средняя школа. Весь комплекс: чтение, письмо, грамматика, аудирование, говорение</a>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div><a id="slide-head">Эффективная программа для<br>взрослых</a><hr>
+                    <a id="slide-text">Отдельные группы, направленная подготовка в зависимости от уровня и целей</a>    
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div><a id="slide-head-1">Корпоративное обучение<hr></a>
+                    <a id="slide-head-2">Выезд на предприятия</a></div>
+                </div>
+                <div class="slider-item">
+                    <div><a id="slide-head-1">Качественная подготовка к ДПА, ЗНО<hr></a>
+                    <a id="slide-head-2">Экзамены TOEFL, IELTS и не только</a></div>
+                </div>
+                <div class="slider-item">
+                    <div><a id="slide-head-1">Переводы письменные и устные<hr></a>
+                    <a id="slide-head-2">Разговорный клуб с носителями</a></div>                        
+                </div>
+            </div>
+            <a class="control control-left" role="button">‹</a>
+            <a class="control control-right control-show" role="button">›</a>
+        </div>
+    </div>
+    <div id="faq">
+        <p id="faq-tag">Часто задаваемые вопросы</p><hr>
+        <div class="faq-1">
+            <div class="faq-item">
+                <details><summary>Какую литературу вы используете для обучения?</summary>
+                        <p>Занимаемся по авторским учебникам организатора школы Гапонова И.В., 
+                        материалам международного образца (учебник + рабочая тетрадь). 
+                        Государственные учебники и пособия используются на усмотрение 
+                        преподавателя и в зависимости от группы.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary>Сколько времени потребуется, чтобы выучить язык?</summary>
+                    <p>Английским можно заниматься всю жизнь — нет предела совершенству. 
+                    Главное — не заучить, а научиться пользоваться. Именно это является нашей 
+                    основной целью в отношении каждого ученика.</p>
+                </details>
+            </div>
+        </div>
+        <div class="faq-2">
+            <div class="faq-item">
+                <details>
+                    <summary>Хочу учить только грамматику/разговорный английский/только читать</summary>
+                    <p>Изучение английского — комплексный процесс, 
+                    все этапы и элементы которого одинаково важны. 
+                    Мы учитываем ваши пожелания и стремления, но в первую 
+                    очередь предоставляем именно комплекс необходимых знаний.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary>Сколько стоят курсы? Платное ли первое занятие?</summary>
+                    <p>Первое занятие всегда бесплатно :) 
+                    Далее стоимость обучения указывается в договоре, 
+                    который заключается при поступлении на курсы. 
+                    Если со временем стоимость меняется, всё оговаривается 
+                    в индивидуальном порядке</p>
+                </details>
+            </div>
+        </div>
+    </div>
+    <div id="contacts" class="contacts">
+        <div class="contacts-det">
+            <div class="tel">
+                <p id="tel-tag">Связаться с нами<hr></p>
+                <p id="tels"> 050 361 44 27<br>
+                097 390 40 79<br>
+                097 191 52 65<br>
+                098 633 94 40</p>
+                <p>Директор - Гапонов И.В.<br>ivan_gaponov@ukr.net</p>
+                <img id="logo" src="./img/logo.png">
+            </div>
+            <div class="addr">
+                <p id="addr-tag">Найти нас<hr></p>
+                <p>Украина<br>г. Днепр, ул.Миронова, 30, оф.72<br>
+                г. Каменское, ул.Шевченко (Cыровца), 46 (оф. здание "Меркурий") оф.216<br>
+                г. Каменское, л/б, пр.Надднепрянский, 21</p>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d164295.58199206484!2d34.75197608628579!3d48.52670093692888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sjohn%60s%20school!5e0!3m2!1suk!2sua!4v1579281516289!5m2!1suk!2sua" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© John's School 2008-2020</p>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
