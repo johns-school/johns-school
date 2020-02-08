@@ -335,7 +335,7 @@ details[open] span {
     padding: 0.1% 0 0.1% 0;
     text-align: center;
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .navigation a:not(:first-child) {
         display: none;
     }
