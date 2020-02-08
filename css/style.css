@@ -365,7 +365,7 @@ hr {
         font-size: 20px;
     }
     #about-text {
-        font-size: 14px;
+        font-size: 16px;
     }
     #about-icon {
         font-size: 100px;
@@ -399,7 +399,7 @@ hr {
     #slide-text {
         width: 100%;
         margin: auto;
-        font-size: 20px;
+        font-size: 18px;
     }
     .faq-1, .faq-2 {
         display: flex;
