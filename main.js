@@ -53,7 +53,6 @@ let groupSlider = (function () {
                 return items[position.getItemMax()].position;
             }
         };
-        
         let transformItem = function (direction) {
             let nextItem;
             if (direction === "right") {
