@@ -49,11 +49,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
     text-transform: uppercase;
     text-align: center;
+    color: white;
 }
-h2 {
+.home-tag h2 {
+    color: rgb(33, 20, 204);
     font-size: 80px;
     line-height: 60px;
     font-weight: bolder;
@@ -61,6 +62,9 @@ h2 {
     border-color: #000;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+.home-tag h2 span {
+    color: rgb(219, 12, 12);
 }
 h4 {
     font-size: 34px;
@@ -274,9 +278,6 @@ hr {
     font-size: 20px;
     font-weight: bold;
 }
-.faq-item details summary::-webkit-details-marker {
-    display: none;
-}
 .contacts {
     background-image: url(../img/bg2.png);
     background-size: cover;
@@ -292,6 +293,7 @@ hr {
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    margin-bottom: 10%;
 }
 .tel {
     width: 35%;
@@ -310,17 +312,9 @@ hr {
     font-size: 30px;
     font-weight: 400;
 }
-#tels {
-    margin-bottom: 10%;
-}
-#logo {
-    margin-top: 5%;
-    width: 70%;
-    height: 300px;
-}
-#map {
+.addr iframe {
     width: 75%; 
-    height: 50%; 
+    height: 60%; 
     margin-top: 4%;
 }
 .footer {
@@ -329,16 +323,20 @@ hr {
     padding: 0.1% 0 0.1% 0;
     text-align: center;
 }
+.footer p {
+    display: flex;
+    flex-flow: column;
+}
+.footer p span {
+    font-size: 10px;
+}
 @media (max-width: 992px) {
-    html {
-        scroll-behavior: smooth;
-    }
     .navigation a:not(:first-child) {
         display: none;
     }
     .navigation a.icon {
         display: block;
-        margin-left: 65%;
+        margin-left: 75%;
     }
     .navigation.responsive {
         display: flex;
@@ -347,7 +345,7 @@ hr {
         position: fixed;
     }
     .navigation a {
-        font-size: 18px;
+        font-size: 24px;
     }
     .navigation.responsive a.icon {
         position: absolute;
@@ -428,6 +426,7 @@ hr {
         display: flex;
         flex-flow: column;
         justify-content: center;
+        margin-bottom: 2%;
     }
     .tel, .addr {
         width: 100%;
@@ -441,10 +440,7 @@ hr {
     #tels, #tel-tag, #addr-tag {
         margin-bottom: 2%;
     }
-    #logo {
-        display: none;
-    }
-    #map {
+    .addr iframe {
         width: 90%;
         height: 400px;
     }
