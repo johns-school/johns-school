@@ -54,7 +54,7 @@ body {
     color: white;
 }
 .home-tag h2 {
-    color: rgb(255, 255, 255);
+    color: rgb(40, 16, 138);
     font-size: 80px;
     line-height: 60px;
     font-weight: bolder;
@@ -62,6 +62,9 @@ body {
     border-color: #000;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+.home-tag h2 span {
+    color: rgb(216, 25, 25);
 }
 h4 {
     font-size: 34px;
